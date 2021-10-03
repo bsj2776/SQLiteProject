@@ -29,7 +29,7 @@ public class Main {
 			stat1.close();
 			
 			//데이터 추가
-			/*System.out.println("\n---새 데이터 추가---");
+			System.out.println("\n---새 데이터 추가---");
 			Statement stat2 = con.createStatement();
 			String sql2 = "insert into g_artists (name, a_type, a_year, debut, regdate)"
 					+ "values ('방탄소년단', '남성', '2010년대', '2013년', datetime('now', 'localtime'));";
@@ -38,10 +38,10 @@ public class Main {
 				System.out.println("새로운 데이터가 추가되었습니다!");
 			else
 				System.out.println("[Error] 데이터 추가 오류!");
-			stat2.close();*/
+			stat2.close();
 			
 			//데이터 수정
-			/*System.out.println("\n---데이터 수정---");
+			System.out.println("\n---데이터 수정---");
 			Statement stat3 = con.createStatement();
 			String sql3 = "update g_artists set debut = '2013년 NO More Dream' "
 					+ "where id = 7;";
@@ -50,7 +50,7 @@ public class Main {
 				System.out.println("데이터가 수정되었습니다!");
 			else
 				System.out.println("[Error] 데이터 수정 오류!");
-			stat3.close();*/
+			stat3.close();
 			
 			//데이터 삭제
 			System.out.println("\n---데이터 삭제---");
