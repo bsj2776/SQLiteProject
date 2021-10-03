@@ -11,7 +11,7 @@ public class Main {
 			Class.forName("org.sqlite.JDBC");
 		
 			//SQLite 데이터베이스 파일에 연결
-			String dbFile = "C:\\sqlite\\db\\myfirst.db";
+			String dbFile = "myfirst.db";
 			con = DriverManager.getConnection("jdbc:sqlite:" + dbFile);
 		
 			//데이터조회
